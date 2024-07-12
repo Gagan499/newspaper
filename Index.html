@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newspaper</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            background-color: #333333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            background-color: #2e4053;
+            color: aliceblue;
+            padding: 20px;
+        }
+
+        .container img {
+            margin-right: 10px;
+        }
+
+        .container h1 {
+            margin: 0;
+            font-size: 30px;
+        }
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            margin-left: auto;
+        }
+
+        .navbar li {
+            margin-left: 20px;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: aliceblue;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .navbar a:hover {
+            color: blanchedalmond;
+        }
+        .banner {
+            padding: 35px 20px;
+            text-align: center;
+        }
+
+        .banner h1 {
+            margin: 0;
+            font-size: 48px;
+            font-weight: 700;
+        }
+
+        .banner p {
+            font-size: 24px;
+            font-weight: 400;
+            margin: 10px 0 0;
+        }
+
+        .content {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 20px auto;
+        }
+
+        .content h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        .content p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .stories {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .stories div {
+            background-color: #2e4053;   
+            color: aliceblue;
+            border-radius: 8px;
+            overflow: hidden;
+            max-width: 300px;
+        }
+
+        .stories img {
+            width: 100%;
+            height: auto;
+        }
+
+        .stories p {
+            padding: 10px;
+            font-size: 16px;
+        }
+        h3{
+            font-size: 25px;
+            margin-left: 25px;
+            padding-left: 20px;
+        }
+
+        footer {
+            font-size: 20px;
+            background-color: #666666;
+            color: #101b27;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer .content-section {
+            margin-bottom: 20px;
+        }
+
+        footer a {
+            color: #28313b;;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <img src="https://imgs.search.brave.com/Bz1fc6O1X3v0fUwL5S55nqi7WEHrzwKVR73l77AhNFY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzAxLzMzLzkyLzgx/LzM2MF9GXzEzMzky/ODE1M191cE5tYnMz/VjNidWpkZ1N2RDRF/cFNCeGNENVFodlZD/Zy5qcGc"
+                alt="newspaper_logo" width="100px">
+            <h1> | <u>The News Nexus</u></h1>
+            <nav class="navbar">
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </nav>
+        </div>
+    </header>
+    <section class="banner">
+        <div>
+            <img src="banner.jpg" width="350px" height="350px">
+            <h1>Welcome to our Newsletter Website</h1>
+            <p>Stay updated with the latest news and trends!</p>
+        </div>
+    </section>
+    <h3>Latest storeies</h3>
+    <section class="stories">
+        <div>
+            <img src="https://images.indianexpress.com/2024/07/Left-to-right-2024-07-12T101758.237.jpg?w=450"
+            alt="img1" width="300px">
+            <p>PM Modi meet with 20 economists and experts at the NITI Aayog office in the presence of Finance Minister
+                Nirmala Sitharaman and Principal Secretary P K Mishra.</p>
+        </div>
+        <div>
+            <img src="https://images.indianexpress.com/2024/07/Arvind-Kejriwal-7.jpg?w=640" alt="img1" width="300px" height="250px">
+            <p>The apex court had on April 15 sought a response from the ED on Kejriwal’s plea challenging his arrest in
+                the money laundering case. The Aam Aadmi Party (AAP) chief has challenged in the top court the April 9
+                order of the Delhi High Court that had upheld his arrest in the case.</p>
+            </div>
+            <div>
+                <img src="https://images.indianexpress.com/2024/07/Panchayat-polls.jpg?w=640" alt="img1" width="300px">
+            <p>
+                Day after Tripura Panchayat polls announcement, Congress, CPIM look to form alliance to take on BJP</p>
+        </div>
+        <div>
+            <img src="https://www.hindustantimes.com/ht-img/img/2024/06/28/550x309/delhi_rain_2_1719561034452_1719561046962.jpeg"
+                alt="img1" width="300px">
+            <p>Heavy rain causes waterlogging, traffic woes in Delhi-NCR | See Pics
+                Delhi-NCR on Friday morning received heavy rainfall accompanied by thunderstorms and lightning, causing
+                severe waterlogging and traffic congestion in the city.(Sanjeev Verma/Hindustan Times)9
+            </p>
+        </div>
+        <div>
+            <img src="https://images.hindustantimes.com/img/2024/07/12/550x309/Bibhav-Kumar-was-arrested-by-the-Delhi-Police-on-M_1720267550957_1720776315746.jpg"
+            alt="img1" width="300px">
+            <p>The court said that since Kumar was Kejriwal's designated personal secretary (PS), his influence was not
+                unchecked.</p>
+            </div>
+        </section>
+        <section class="content">
+            <div>
+                <h2>About Site : </h2>
+                <p>Welcome to The News Nexus
+                    The News Nexus ishlo your go-to source for accurate, timely, and in-depth news coverage. As an independent news organization, we are committed to bringing you the stories that matter from around the world. Our mission is to inform, educate, and engage our readers through comprehensive reporting and insightful analysis.</p>
+            </div>
+        </section>
+        
+        <footer>
+            <div class="content-section">
+                <h2>Contact</h2>
+            <p>
+                Feel free to reach out via email at
+                <a href="mailto:syangagandeep1512@gmail.com">syangagandeep1512@gmail.com</a>
+                or connect on <a href="https://wa.me/9041163065">WhatsApp: 9041163065</a>.
+            </p>
+        </div>
+        <p>&copy; 2024 Gagandeep Singh. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
